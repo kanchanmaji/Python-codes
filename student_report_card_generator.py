@@ -1,4 +1,4 @@
-# 📘 Student Report Card Generator
+# Student Report Card Generator
 
 def average(marks):
     """Return average of marks"""
@@ -32,9 +32,9 @@ student_grade = grade(avg)
 # Find subject with highest marks (using lambda + max)
 top_subject = max(marks, key=lambda x: marks[x])
 
-# 🖨️ Print Report Card
+# Print Report Card
 print("\n" + "="*35)
-print("         📄 STUDENT REPORT CARD")
+print("         STUDENT REPORT CARD")
 print("="*35)
 print(f"Name: {name}")
 print(f"Marks: {marks}")
