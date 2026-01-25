@@ -1,0 +1,123 @@
+# =========================
+# Python bytecode & cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+env/
+venv/
+ENV/
+.venv/
+.python-version
+
+# =========================
+# Distribution / packaging
+# =========================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# PyInstaller
+# =========================
+*.manifest
+*.spec
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+*.pid
+*.out
+*.err
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# =========================
+# Jupyter / Data science
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets.yml
+
+# =========================
+# Django specific
+# =========================
+*.sqlite3
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+
+# =========================
+# Flask / FastAPI
+# =========================
+instance/
+.webassets-cache
+
+# =========================
+# Celery / Redis
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# Android / Termux / Pydroid
+# =========================
+*.apk
+*.aab
+.gradle/
+.buildozer/
